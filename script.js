@@ -2,7 +2,7 @@ async function checkNews(){
 
 let news=document.getElementById("news").value;
 
-let apiKey="AIzaSyDDYjxfZe4cMsrwU-OXO7f1--_qmQFlYGA";
+let apiKey="";
 
 let url=`https://factchecktools.googleapis.com/v1alpha1/claims:search?query=${news}&key=${apiKey}`;
 
